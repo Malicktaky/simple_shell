@@ -21,5 +21,6 @@ extern char **environ;
 /**tools.c**/
 int strcmp(const char *s1, const char *s2);
 int _putchar(char c);
+void _puts(char *str);
 
 #endif
