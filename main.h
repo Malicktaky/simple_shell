@@ -8,7 +8,7 @@
 #include <errno.h>
 #include <sys/wait.h>
 #include <sys/stat.h>
-#include <types.h>
+#include <sys/types.h>
 #include <fcntl.h>
 
 /**macros**/
@@ -19,7 +19,7 @@
 extern char **environ;
 
 /**tools.c**/
-int strcmp(const char *s1, const char *s2);
+int _strcmp(const char *s1, const char *s2);
 int _putchar(char c);
 void _puts(char *str);
 int _atoi(char *s);

@@ -7,7 +7,7 @@
  *
  * Return: 0 if match otherwise negatif or positive value
  */
-int _strcmp(const char *s1, cons char *s2)
+int _strcmp(const char *s1, const char *s2)
 {
 	while (*s1)
 	{
@@ -28,7 +28,7 @@ int _strcmp(const char *s1, cons char *s2)
  */
 int _putchar(char c)
 {
-	return (write(1, &c, ,));
+	return (write(1, &c, 1));
 }
 
 /**
