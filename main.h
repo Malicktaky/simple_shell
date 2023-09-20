@@ -41,6 +41,6 @@ int handleBuitlin(char **args, int status);
 
 /**functions1.c**/
 char *_getenv(char *env_var);
-
+int cmd_not_found(char **args, int counter);
 
 #endif
